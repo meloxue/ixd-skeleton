@@ -1,12 +1,12 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #C414FF;
+  /* Colors are in hexadecimal: http://www.colorpicker.com/ */  
+  color: #C414FF;
 }
  p {
      font-variant: small-caps;
@@ -14,6 +14,15 @@
       width: 700px;
 
  }
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -21,13 +30,23 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-
+  display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
  .project p {
      font-variant: small-caps;
      width: 700px;
@@ -72,8 +91,8 @@ body {
 }
 
 .jumbotron {
-	position: relative;
-	background: none;
+  position: relative;
+  background: none;
 }
 .jumbotron p.active {
      color: #1f6ddb;
@@ -89,7 +108,7 @@ body {
      bottom: 0;
      right: 0;
      position: fixed;
-     z-index: -1;	
+     z-index: -1; 
      width: 700px;
      height: 100px;
 }
