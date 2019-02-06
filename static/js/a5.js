@@ -19,6 +19,11 @@ function initializePage() {
 	//from lab 2
 	$("a.thumbnail").click(projectClick);
 	
+	//hide function
+	$('#hide').click(function(){
+  		$('#hideOnClick').hide();
+	});
+
 /*function projectClick(e) {
 	console.log("Project clicked");
 	e.preventDefault();
