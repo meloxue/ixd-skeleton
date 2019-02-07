@@ -1,8 +1,173 @@
 <html>
 <head>
-	<title>Test Page</title>
+	<title>HCI Project Portfolio</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/a5skeleton.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/a5.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-Begin here (or replace this with any static code already written).
+	Begin here (or replace this with any static code already written).
+	<div class="container">
+		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
+		<!-- p means paragraph -->
+		<div class="dropdown">
+			<h1>SCHNIP</h1>
+			<button id="menu" class="btn btn-default btn-sl">Menu</button>
+			<div class="dropdown-content">
+				<div>
+					<a href="preferences.html">Preferences</a>
+				</div>
+				<div>
+					<a href="account.html">Account</a>
+				</div>
+				<div>
+					<form action="/action_page.php">
+						<input type="checkbox" name="tooptipon" value="">Tool tips
+						<br>
+					</form>
+				</div>
+				<div>
+					<form action="/action_page.php">
+						<input type="checkbox" name="locationon" value="">Location
+						<br>
+					</form>
+				</div>
+				<div>
+					<form action="/action_page.php">
+						<input type="checkbox" name="Notificationon" value="">Notifications
+						<br>
+					</form>
+				</div>
+				<div>
+					<a href="addcard.html">Add Loyalty Card</a>
+				</div>
+				<div>
+					<button id="Sign Out" class="btn btn-default btn-sl">Sign Out</button>
+				</div>
+			</div>
+		</div>
+
+		<div id='hideOnClick'>
+			<div class="row">
+				<div class="col-lg-6">
+
+					<h4>Are you shopping at
+						Ralphs
+					</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>Ralphs</h1>
+				</div>
+				<div class="col-lg-6">
+					<button id="hide" class="btn btn-default btn-sl">Yes</button>
+
+					<!-- why isn't this second button working? -->
+					<button id="hide" class="btn btn-default btn-sl">No</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="nearby">
+			<h3>Nearby stores for 92122</h3>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="thumbnail">
+					<a href="ralph.html">
+						<h2>Ralphs</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="99ranch.html">
+						<h2>99 Ranch</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="walmart.html">
+						<h2>Walmart</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="Sprouts.html">
+						<h2>Sprouts</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="vons.html">
+						<h2>Vons</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="Costco.html">
+						<h2>Costco</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="cvs.html">
+						<h2>CVS</h2>
+					</a>
+				</div>
+
+			</div>
+			<div class="col-lg-6">
+				<div class="thumbnail">
+					<a href="traderjoes.html">
+						<h2>Trader Joe's</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="zionmarket.html">
+						<h2>Zion Market</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="albertsons.html">
+						<h2>Albertsons</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="food4less.html">
+						<h2>Food4Less</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="pavillions.html">
+						<h2>Pavillions</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="wholefoods.html">
+						<h2>Wholefoods</h2>
+					</a>
+				</div>
+				<div class="thumbnail">
+					<a href="northgate.html">
+						<h2>Northgate</h2>
+					</a>
+				</div>
+
+				<p>
+					<button type="button" class="btn btn-default btn-lg">
+
+						<a href="cart.html"<span class="glyphicon glyphicon-shopping-cart"></span></a>
+					</button>
+				</p>
+			</div>
+		</div>
+
+	</div>
+
 </body>
 </html>
